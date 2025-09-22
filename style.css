@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  padding: 5px;
+  border: 1px solid rgb(41, 41, 41);
+  border-radius: 5px;
+  background-color: beige;
+}
+
+.itemNo {
+  background-color: azure;
+  text-align: center;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+label{
+  font-size: 20px;
+}
+
+.count button,
+input {
+  margin: 3px;
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  background-color: rgb(90, 87, 87);
+  color: white;
+}
+
+input {
+  background-color: aliceblue;
+  color: black;
+  width: 70px;
+}
